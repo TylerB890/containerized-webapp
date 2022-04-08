@@ -1,0 +1,11 @@
+services:
+  backend: 
+    build: ./web-service-gin
+    ports:
+      - "8081:8081"
+  ui:
+    build: ./vue-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
