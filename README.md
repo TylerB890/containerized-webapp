@@ -1,2 +1,2 @@
-# containerized-webapp
-Small containerized application built from the ground up with full ci/cd pipeline using github actions
+# Goose Tracker
+Small containerized application built from the ground up with Go and Vue.js
